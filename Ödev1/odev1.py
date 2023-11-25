@@ -10,7 +10,7 @@ for satir in gri_foto:
     for sutun in satir:
         histogram[sutun] += 1
 
-plt.figure(figsize=(8, 5))
+plt.figure(figsize=(10, 7))
 plt.bar(range(256), histogram, color='red')
 plt.title('Görüntü Histogramı')
 plt.xlabel('Piksel Değeri')
